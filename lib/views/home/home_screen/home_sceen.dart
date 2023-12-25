@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:groceries_app/view_model/app_text_style.dart';
 
-import '../componants/custom_section_child.dart';
-import '../componants/home_frist_section.dart';
-import '../componants/home_main_section.dart';
-import '../models/groceries_list_model.dart';
+import '../custom_section_child.dart';
+import '../home_frist_section.dart';
+import '../home_main_section.dart';
+import '../../models/groceries_list_model.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
