@@ -4,7 +4,7 @@ import 'package:flutter_svg/svg.dart';
 import 'package:groceries_app/view_model/app_colors.dart';
 import 'package:groceries_app/view_model/app_text_style.dart';
 
-import '../../../view_model/app_images.dart';
+import '../../../../view_model/app_images.dart';
 
 class HomeFristSection extends StatelessWidget {
   const HomeFristSection({Key? key}) : super(key: key);

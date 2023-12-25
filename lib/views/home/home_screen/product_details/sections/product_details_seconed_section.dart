@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import '../../../../../../models/card_model/product_model.dart';
-import '../../../../../../view_model/app_colors.dart';
-import '../../../../../../view_model/app_text_style.dart';
-import '../../../../../componants/custom_button.dart';
+import '../../../../../models/card_model/product_model.dart';
+import '../../../../../view_model/app_colors.dart';
+import '../../../../../view_model/app_text_style.dart';
+import '../../../../componants/custom_button.dart';
 
 class ProductDetailsSeconedSection extends StatelessWidget {
   const ProductDetailsSeconedSection({Key? key,  required this.product}) : super(key: key);

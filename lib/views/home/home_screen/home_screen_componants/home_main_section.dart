@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:groceries_app/view_model/app_colors.dart';
 import 'package:groceries_app/view_model/app_text_style.dart';
 
-import '../../../models/card_model/product_model.dart';
-import '../../componants/custom_card.dart';
+import '../../../../models/card_model/product_model.dart';
+import '../../../componants/custom_card.dart';
 
 class HomeMainSection extends StatelessWidget {
   const HomeMainSection({Key? key, required this.SectionName, this.child, }) : super(key: key);

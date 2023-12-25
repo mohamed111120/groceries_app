@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../../../../models/card_model/product_model.dart';
+import '../../../../../models/card_model/product_model.dart';
 
 
 class ProductDetailsFristSection extends StatelessWidget {

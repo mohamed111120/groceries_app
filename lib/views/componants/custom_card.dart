@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:groceries_app/models/card_model/product_model.dart';
 import 'package:groceries_app/view_model/app_colors.dart';
 import 'package:groceries_app/view_model/app_text_style.dart';
-
-import '../../view_model/app_images.dart';
-import '../product_details/product_details.dart';
+import '../home/home_screen/product_details/product_details.dart';
 
 class CustomCard extends StatelessWidget {
   const CustomCard({

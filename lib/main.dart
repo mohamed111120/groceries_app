@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:groceries_app/views/auth/login.dart';
 import 'package:groceries_app/views/auth/sign_up.dart';
+import 'package:groceries_app/views/home/home_screen/product_details/product_details.dart';
 import 'package:groceries_app/views/home/homeLayout.dart';
 import 'package:groceries_app/views/onpording/onbording.dart';
-import 'package:groceries_app/views/product_details/product_details.dart';
 import 'package:groceries_app/views/splash/splach.dart';
 
 void main() {

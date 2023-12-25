@@ -1,15 +1,8 @@
-import 'dart:ffi';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:groceries_app/view_model/app_colors.dart';
-import 'package:groceries_app/views/home/componants/custom_section_child.dart';
-import 'package:groceries_app/views/home/componants/home_frist_section.dart';
 import 'package:groceries_app/views/home/explor_screen/explor_screen.dart';
-import '../../view_model/app_images.dart';
-import 'componants/home_main_section.dart';
 import 'home_screen/home_sceen.dart';
-import 'models/groceries_list_model.dart';
 
 class HomeLayout extends StatefulWidget {
   HomeLayout({Key? key}) : super(key: key);
