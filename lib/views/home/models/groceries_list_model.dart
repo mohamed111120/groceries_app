@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-import 'package:groceries_app/view_model/app_images.dart';
+import 'package:groceries_app/view_model/utils/app_images.dart';
 
 class GroceriesListModel {
   final String image;

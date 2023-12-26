@@ -1,7 +1,10 @@
 
 import 'package:flutter/material.dart';
-import 'package:groceries_app/view_model/app_colors.dart';
+import 'package:groceries_app/view_model/utils/app_colors.dart';
 import 'package:groceries_app/views/home/explor_screen/explor_screen.dart';
+import 'accont/account_screen.dart';
+import 'cart/cart_screen.dart';
+import 'favorite/favorite_screen.dart';
 import 'home_screen/home_sceen.dart';
 
 class HomeLayout extends StatefulWidget {
@@ -18,11 +21,14 @@ class _HomeLayoutState extends State<HomeLayout> {
   List<Widget> homeScreens=[
     HomeScreen(),
     ExploreScreen(),
+    CartScreen(),
+    FavoriteScreen(),
+    AccountScreen(),
   ];
 
   Widget build(BuildContext context) {
     return Scaffold(
-      body: homeScreens.elementAt(currentIndex),
+      body: SafeArea(child: homeScreens.elementAt(currentIndex)),
       bottomNavigationBar: BottomNavigationBar(
 
         selectedItemColor: AppColors.green,

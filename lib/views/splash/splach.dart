@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:groceries_app/view_model/app_colors.dart';
-import 'package:groceries_app/view_model/app_images.dart';
-import 'package:groceries_app/view_model/app_text_style.dart';
+import 'package:groceries_app/view_model/utils/app_colors.dart';
+import 'package:groceries_app/view_model/utils/app_images.dart';
+import 'package:groceries_app/view_model/utils/app_text_style.dart';
 import 'package:groceries_app/views/onpording/onbording.dart';
 
 class SplachScreen extends StatefulWidget {

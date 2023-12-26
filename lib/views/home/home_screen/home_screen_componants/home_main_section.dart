@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:groceries_app/view_model/app_colors.dart';
-import 'package:groceries_app/view_model/app_text_style.dart';
+import 'package:groceries_app/view_model/utils/app_colors.dart';
+import 'package:groceries_app/view_model/utils/app_text_style.dart';
 
 import '../../../../models/card_model/product_model.dart';
 import '../../../componants/custom_card.dart';

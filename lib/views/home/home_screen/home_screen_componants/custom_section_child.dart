@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:groceries_app/views/home/models/groceries_list_model.dart';
 
-import '../../../../view_model/app_images.dart';
+import '../../../../view_model/utils/app_images.dart';
 
 class CustomSectionChild extends StatelessWidget {
   const CustomSectionChild({Key? key, required this.groceriesListModel}) : super(key: key);

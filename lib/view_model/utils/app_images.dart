@@ -9,6 +9,15 @@ class AppImages {
   static String food5 = 'assets/images/food 5.png';
   static String food6 = 'assets/images/food 6.png';
   static String food7 = 'assets/images/food 7.png';
+  static String export1 = 'assets/images/export 1.png';
+  static String export2 = 'assets/images/export 2.png';
+  static String export3 = 'assets/images/export 3.png';
+  static String export4 = 'assets/images/export 4.png';
+  static String export5 = 'assets/images/export 5.png';
+  static String export6 = 'assets/images/export 6.png';
+
+
+
 
 
 }

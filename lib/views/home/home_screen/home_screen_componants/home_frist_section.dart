@@ -1,10 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:groceries_app/view_model/app_colors.dart';
-import 'package:groceries_app/view_model/app_text_style.dart';
+import 'package:groceries_app/view_model/utils/app_colors.dart';
+import 'package:groceries_app/view_model/utils/app_text_style.dart';
+import 'package:groceries_app/views/home/home_componants/custom_search_bar.dart';
 
-import '../../../../view_model/app_images.dart';
+import '../../../../view_model/utils/app_images.dart';
 
 class HomeFristSection extends StatelessWidget {
   const HomeFristSection({Key? key}) : super(key: key);
@@ -33,17 +34,7 @@ class HomeFristSection extends StatelessWidget {
           ],
         ),
         SizedBox(height: 15,),
-        SearchBar(
-          shadowColor: MaterialStatePropertyAll(MaterialStateColor.resolveWith(
-              (states) => AppColors.gray.withOpacity(.2))),
-          backgroundColor: MaterialStatePropertyAll(
-              MaterialStateColor.resolveWith(
-                  (states) => Colors.grey.withOpacity(.2))),
-          elevation: MaterialStatePropertyAll(0.0),
-          hintText: 'Search Store',
-          hintStyle: MaterialStatePropertyAll(MaterialStateTextStyle.resolveWith((states) => AppTextStyle.subTitle)),
-          leading: Icon(Icons.search),
-        )
+        CustomSearchBar(),
       ],
     );
   }

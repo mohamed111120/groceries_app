@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:groceries_app/view_model/app_colors.dart';
+import 'package:groceries_app/view_model/utils/app_colors.dart';
 
 class AppTextStyle{
 

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:groceries_app/view_model/app_images.dart';
+import 'package:groceries_app/view_model/utils/app_images.dart';
 class ProductsModel {
   final String? image;
   final String? title;

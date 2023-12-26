@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:groceries_app/view_model/app_images.dart';
+import 'package:groceries_app/view_model/utils/app_images.dart';
 import 'package:groceries_app/views/auth/login.dart';
 
-import '../../view_model/app_colors.dart';
+import '../../view_model/utils/app_colors.dart';
 import '../componants/custom_button.dart';
 
 class OnbordingScreen extends StatelessWidget {

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:groceries_app/view_model/app_text_style.dart';
+import 'package:groceries_app/view_model/utils/app_text_style.dart';
 import 'package:groceries_app/views/auth/auth_componats/custom_text_field.dart';
 import 'package:groceries_app/views/componants/custom_button.dart';
 import 'package:groceries_app/views/home/homeLayout.dart';
 
-import '../../view_model/app_colors.dart';
-import '../../view_model/app_images.dart';
+import '../../view_model/utils/app_colors.dart';
+import '../../view_model/utils/app_images.dart';
 
 class SignUpScreen extends StatelessWidget {
   const SignUpScreen({Key? key}) : super(key: key);

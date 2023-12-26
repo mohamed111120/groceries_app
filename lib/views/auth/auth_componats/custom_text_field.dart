@@ -2,7 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
-import '../../../view_model/app_colors.dart';
+import '../../../view_model/utils/app_colors.dart';
 
 class CustomTextField extends StatelessWidget {
   const CustomTextField({Key? key}) : super(key: key);

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:groceries_app/models/card_model/product_model.dart';
-import 'package:groceries_app/view_model/app_colors.dart';
+import 'package:groceries_app/view_model/utils/app_colors.dart';
 import 'package:groceries_app/views/home/home_screen/product_details/sections/product_details_frist_section.dart';
 import 'package:groceries_app/views/home/home_screen/product_details/sections/product_details_seconed_section.dart';
 

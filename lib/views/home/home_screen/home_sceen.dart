@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:groceries_app/view_model/app_text_style.dart';
+import 'package:groceries_app/view_model/utils/app_text_style.dart';
 
 
 import 'home_screen_componants/custom_section_child.dart';
